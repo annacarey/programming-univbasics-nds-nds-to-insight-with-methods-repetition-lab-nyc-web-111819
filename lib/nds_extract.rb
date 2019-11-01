@@ -29,7 +29,7 @@ def list_of_directors(source)
   index = 0
   list = [] 
   while index < source.size
-   list.push(source[index])
+   list.push(source[index][:name])
 end
 
 def total_gross(source)
